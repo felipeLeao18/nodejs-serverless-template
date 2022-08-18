@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "serverless offline"
   },
   "author": "Felipe Leao",
   "license": "ISC",

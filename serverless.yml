@@ -1,0 +1,14 @@
+service: aws-node-http-api-project
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+custom:
+  serverless-offline:
+    httpPort: 4000
+
+
+plugins:
+  - serverless-offline
