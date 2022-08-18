@@ -8,8 +8,12 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    project: './tsconfig.json'
   },
   rules: {
+    indent: 'off',
+    '@typescript-eslint/indent': ['error', 2],
+    'no-console': 'warn'
   }
 }
