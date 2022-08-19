@@ -1,0 +1,13 @@
+{
+  "plugins": ["source-map-support"],
+  "presets": [
+      [
+          "@babel/preset-typescript",
+          {
+              "targets": {
+                  "node": "16"
+              }
+          }
+      ]
+  ]
+}

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:staged": "npm test -- --findRelatedTests",
     "dev": "serverless offline"
   },
   "author": "Felipe Leao",
