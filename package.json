@@ -22,6 +22,7 @@
     "aws-lambda": "^1.0.7",
     "babel-loader": "^8.2.5",
     "babel-plugin-source-map-support": "^2.2.0",
+    "babel-cli": "^6.26.0",
     "eslint": "^8.22.0",
     "eslint-config-standard-with-typescript": "^22.0.0",
     "eslint-plugin-import": "^2.26.0",
@@ -40,7 +41,5 @@
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
   }
 }
