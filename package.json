@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "jest",
+    "test": "jest --maxWorkers=50%",
     "test:staged": "npm test -- --findRelatedTests",
     "dev": "serverless offline"
   },
